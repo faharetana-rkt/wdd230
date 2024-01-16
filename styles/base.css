@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Salsa&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Libre Franklin";
+}
+
+header {
+    background: #00296B;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    color: #FFD500;
+    font-family: Salsa;
+    font-size: 40px;
+}
+
+#facePhoto {
+    height: 175px;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+nav {
+    background: #000814;
+    text-align: center;
+    font-family: Salsa;
+    font-size: 25px;
+}
+
+.navLink {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    display: grid;
+    row-gap: 15px;
+    padding-bottom: 50px;
+}
+
+.card {
+    justify-self: center;
+    border: 1px solid lightblue;
+    width: 1000px;
+    border-radius: 7.5px;
+}
+
+h2 {
+    border-bottom: 2px solid #00296B;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #00509D;
+    color: #FDC500;
+    margin-top: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 7.5px 7.5px 0 0;
+}
+
+section {
+    font-size: 17.5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.informationPara {
+    text-align: center;
+}
+
+footer {
+    background: #003F88;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+#flag {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.lastModified {
+    color: #FDC500;
+}
