@@ -13,7 +13,7 @@ header {
 }
 
 h1 {
-    color: #FFD500;
+    color: #fcf300;
     font-family: Salsa;
     font-size: 40px;
 }
@@ -108,5 +108,5 @@ footer {
 }
 
 .lastModified {
-    color: #FDC500;
+    color: #fcf300;
 }
