@@ -1,0 +1,18 @@
+@media screen and (min-width: 650px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #apple {
+        grid-column: 1/2;
+    }
+
+    #google {
+        grid-column: 2/3;
+    }
+
+    #youtube {
+        grid-column: 3/4;
+    }
+}
