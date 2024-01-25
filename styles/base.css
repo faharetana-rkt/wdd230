@@ -44,10 +44,42 @@ nav {
     align-items: center;
 }
 
+/*hamburger button*/
+#menu::before {
+    content: "☰";
+}
+
+/*closing button*/
+#menu.open::before {
+    content: "X";
+}
+
+#menu {
+    font-family: monospace;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 10rem;
+    right: 10px;
+}
+
 .navLink {
+    display: none;
     color: white;
     text-decoration: none;
     padding: 10px;
+}
+
+.navLink:hover {
+    background: white;
+    color: navy;
+}
+
+.active {
+    text-decoration: overline;
+}
+
+.open a {
+    display: block;
 }
 
 main {
@@ -62,6 +94,10 @@ main {
 
 #lessons {
     grid-column: 1/2;
+}
+
+#lessons a:hover {
+    text-decoration: underline;
 }
 
 #informations {
