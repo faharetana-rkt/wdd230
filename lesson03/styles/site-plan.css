@@ -6,12 +6,80 @@ body {
     padding: 4em;
     font-size: 18px;
     text-align: center;
-  }
-  img {
+}
+
+img {
     display: block;
     margin: 0 auto;
-  }
-  h1, h2, h3, h4, h5, h6 {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Josefin Sans";
     color: #485696;
-  }
+}
+
+h2 {
+    text-align: center;
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    color: #F24C00;
+    background-color: #E7E7E7;
+}
+
+hr {
+    height: 3px;
+    margin: 35px 0;
+    background: #FC7A1E;
+}
+
+p {
+    font-family: "Roboto Slab";
+    color: black;
+    padding: 1em;
+    font-weight: bold;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.colors th {
+    background-color: #999;
+}
+
+.colors td {
+    width: 25%;
+    height: 3em;
+}
+
+.primary {
+    background-color: #F24C00;
+}
+
+.secondary {
+    background-color: #485696;
+}
+
+.accent1 {
+    background-color: #FC7A1E;
+}
+
+.accent2 {
+    background-color: #E7E7E7;
+}
+
+p.colored {
+    background-color: #E7E7E7;
+    color: #485696;
+}
