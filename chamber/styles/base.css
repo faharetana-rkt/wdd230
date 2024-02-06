@@ -32,6 +32,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0;
 }
 
 nav a {
@@ -72,4 +73,110 @@ nav a:hover {
 main {
     width: 90%;
     margin: 0 auto;
+    background-color: #FCF5E5;
+}
+
+h1 {
+    font-family: "Josefin Sans";
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 0;
+    color: #F24C00;
+}
+
+.heroImage {
+    position: relative;
+    display: inline-block;
+}
+
+.heroImage img {
+    width: 100%;
+    height: 100%;
+}
+
+#overlayButton {
+    position: absolute;
+    top: 5%;
+    left: 37.5%;
+    background-color: #485696;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 2rem;
+    transition: opacity 0.3s ease;
+}
+
+#overlayButton:hover {
+    opacity: .4;
+    transform: scale(1.1);
+    background-color: #F24C00;
+}
+
+.card {
+    background-color: #E7E7E7;
+    border: 1px solid black;
+    padding: 5px 10px 5px 10px;
+}
+
+.card h2 {
+    border-bottom: 1px solid gray;
+}
+
+.cardContainer {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+#barber,
+#it,
+#tutor {
+    box-shadow: 5px 5px 5px #485696;
+}
+
+.card p {
+    font-weight: medium;
+    color: blue;
+}
+
+#events p,
+#weather p {
+    color: black;
+}
+
+footer {
+    background-color: #485696;
+    color: #E7E7E7;
+    font-size: 1.2rem;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+#logo {
+    border-radius: 20px;
+    float: left;
+    padding: 10px;
+}
+
+.informations {
+    grid-row: 1/2;
+}
+
+.contact {
+    grid-row: 2/3;
+    padding: 10px;
+    justify-self: center;
+    align-self: center;
+}
+
+.websiteInfo {
+    grid-row: 3/4;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
