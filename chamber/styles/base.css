@@ -9,13 +9,13 @@ header {
     font-family: "Josefin Sans";
     padding: 10px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 0.5fr 2fr;
 }
 
 #headerLogo {
     border-radius: 15px;
-    width: 200px;
-    height: 200px;
+    width: 125px;
+    height: 125px;
 }
 
 #anchorLogo {
@@ -37,10 +37,11 @@ nav {
 
 nav a {
     color: #E7E7E7;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
     padding: 5px;
+    display: none;
 }
 
 nav a:hover {
@@ -60,9 +61,9 @@ nav a:hover {
 
 #menu {
     font-family: monospace;
-    font-size: 3rem;
+    font-size: 2rem;
     position: absolute;
-    top: 6rem;
+    top: 3rem;
     right: 50px;
 }
 
@@ -78,7 +79,7 @@ main {
 
 h1 {
     font-family: "Josefin Sans";
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     padding-top: 25px;
     margin-top: 0;
@@ -104,12 +105,10 @@ h1 {
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
-    font-size: 2rem;
-    transition: opacity 0.3s ease;
+    font-size: 1.5rem;
 }
 
 #overlayButton:hover {
-    opacity: .4;
     transform: scale(1.1);
     background-color: #F24C00;
 }
@@ -157,6 +156,8 @@ footer {
 }
 
 #logo {
+    width: 150px;
+    height: 150px;
     border-radius: 20px;
     float: left;
     padding: 10px;
@@ -177,6 +178,6 @@ footer {
     grid-row: 3/4;
     padding: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
