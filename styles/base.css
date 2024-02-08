@@ -167,3 +167,16 @@ footer {
 .lastModified {
     color: #fcf300;
 }
+
+.iframeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    width: 80%;
+    height: 200px;
+    margin-bottom: 50px;
+    border: dashed 2.5px gray;
+}

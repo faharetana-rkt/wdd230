@@ -30,4 +30,8 @@
 	#menu {
 		display: none;
 	}
+
+	iframe {
+		height: 400px;
+	}
 }
