@@ -138,7 +138,7 @@ h1 {
 }
 
 .card p {
-    font-weight: medium;
+    font-weight: normal;
     color: blue;
 }
 
@@ -179,5 +179,16 @@ footer {
     padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.spotlight {
+    background-color: #485696;
+    color: white;
+    width: 60%;
+    margin: 10px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 5px;
 }
