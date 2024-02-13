@@ -18,6 +18,7 @@ const barberCard = document.querySelector("#barber");
 const itCard = document.querySelector("#it");
 const eventPara = document.querySelector("#events p");
 const weatherPara = document.querySelector("#weather p");
+const h1 = document.querySelector("h1");
 
 modeButton.addEventListener("click", () => {
     body.classList.toggle('dark-mode');
@@ -29,4 +30,27 @@ modeButton.addEventListener("click", () => {
     itCard.classList.toggle('dark-mode');
     eventPara.classList.toggle('dark-mode');
     weatherPara.classList.toggle('dark-mode');
+    h1.classList.toggle('dark-mode');
+
+    // Change color of weather and events paragraphs and all paragraphs inside
+    const weatherParas = document.querySelectorAll("#weather p");
+    const eventsParas = document.querySelectorAll("#events p");
+
+    if (body.classList.contains('dark-mode')) {
+        // Dark mode is active
+        weatherParas.forEach(para => {
+            para.style.color = 'white';
+        });
+        eventsParas.forEach(para => {
+            para.style.color = 'white';
+        });
+    } else {
+        // Dark mode is inactive
+        weatherParas.forEach(para => {
+            para.style.color = 'black';
+        });
+        eventsParas.forEach(para => {
+            para.style.color = 'black';
+        });
+    }
 });
