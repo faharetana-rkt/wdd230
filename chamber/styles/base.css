@@ -147,6 +147,15 @@ h1 {
     color: black;
 }
 
+main .dark-mode #weather p {
+    color: white;
+}
+
+main .dark-mode #events p {
+    color: white;
+}
+
+
 footer {
     background-color: #485696;
     color: #E7E7E7;
@@ -191,4 +200,18 @@ footer {
     padding-bottom: 5px;
     text-align: center;
     border-radius: 5px;
+}
+
+.mode {
+    position: absolute;
+    top: 6rem;
+    right: 3rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.dark-mode {
+    background-color: #000;
+    color: #fff;
+    border-color: #eee;
 }
