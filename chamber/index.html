@@ -23,7 +23,7 @@
         <div class="mode">
             ☀️/🌒
         </div>
-        <a id="anchorLogo"><img id="headerLogo" src="images/chamber-logo.png"
+        <a id="anchorLogo"><img id="headerLogo" src="images/chamber-logo.webp"
                 alt="Logo of the chamber of commerce of Toamasina"></a>
         <nav>
             <button id="menu"></button>
@@ -36,7 +36,12 @@
     <main>
         <h1>Welcome to the Chamber of Commerce of Toamasina</h1>
         <div class="heroImage">
-            <img src="images/toamasina.webp" alt="A picture of Toamasina's Mairie">
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/wdd230-org-small.webp">
+                <source media="(max-width: 800px)" srcset="images/wdd230-org-medium.webp">
+                <img src="images/wdd230-org-large.webp" alt="A picture of three persons meeting" width="1500"
+                    height="1000">
+            </picture>
             <button id="overlayButton">Join the Chamber</button>
         </div>
         <div class="cardContainer">
@@ -48,9 +53,10 @@
             </div>
             <div class="card" id="weather">
                 <h2>Weather</h2>
-                <p>🌞 26°C, Sunny</p>
+                <p>🌞 <span id="temp">26</span>°C, Sunny</p>
                 <p>Humidity: 10%</p>
-                <p>Wind Chill: N/A</p>
+                <p>Wind speed: <span id="windSpeed">4</span>mph</p>
+                <p>Wind Chill: <span id="windChill">N/A</span></p>
             </div>
             <h2 class="spotlight">Member Spotlight</h2>
             <div class="card" id="barber">
@@ -75,7 +81,7 @@
     </main>
     <footer>
         <div class="informations">
-            <a id="footerLogo" href="#"><img id="logo" src="images/chamber-logo.png"
+            <a id="footerLogo" href="#"><img id="logo" src="images/chamber-logo.webp"
                     alt="Logo of the chamber of commerce of Toamasina"></a>
             <p>Toamasina</p>
             <p>Chamber of Commerce</p>
