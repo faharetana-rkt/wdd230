@@ -215,3 +215,32 @@ footer {
     color: #fff;
     border-color: #eee;
 }
+
+/*The styling for the discovery page starts here*/
+#discoverContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+}
+
+.anecdote,
+.fruits,
+.cityEvent {
+    border: black solid 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    max-width: 100%;
+}
+
+#discoverContainer img {
+    max-width: 100%;
+    height: auto;
+}
+
+.welcomeMsg {
+    text-align: center;
+    font-size: 30px;
+    background-color: #FCF5E5;
+}

@@ -54,3 +54,30 @@ modeButton.addEventListener("click", () => {
         });
     }
 });
+
+
+/*Visits counter*/
+var lastVisit = localStorage.getItem("lastVisit");
+var currentDate = new Date();
+var currentTimestamp = currentDate.getTime();
+var messageElement = document.querySelector(".welcomeMsg");
+
+if (!lastVisit) {
+    // First visit
+    messageElement.textContent = "Welcome! Let us know if you have any questions.";
+} else {
+    lastVisit = parseInt(lastVisit);
+    var millisecondsInDay = 1000 * 60 * 60 * 24;
+    var daysPassed = Math.floor((currentTimestamp - lastVisit) / millisecondsInDay);
+
+    if (daysPassed === 0) {
+        messageElement.textContent = "Back so soon! Awesome!";
+    } else if (daysPassed === 1) {
+        messageElement.textContent = "You last visited 1 day ago.";
+    } else {
+        messageElement.textContent = "You last visited " + daysPassed + " days ago.";
+    }
+}
+
+// Update localStorage with current timestamp
+localStorage.setItem("lastVisit", currentTimestamp.toString());
