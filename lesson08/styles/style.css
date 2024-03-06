@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+}
+
+caption {
+    caption-side: bottom;
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+}
+
+td,
+th {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+th {
+    background-color: dimgrey;
+    color: white;
+}
+
+.empty {
+    border-left: none;
+    border-top: none;
+}
+
+tr:nth-child(even) {
+    background-color: lightsteelblue;
+}
