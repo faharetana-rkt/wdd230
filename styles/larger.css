@@ -50,4 +50,34 @@
 		height: auto;
 		/* Buenas */
 	}
+
+	/*form styles begins here*/
+	.forms {
+		width: 60%;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	.forms input[type="text"],
+	.forms input[type="email"],
+	.forms input[type="range"],
+	.forms input[type="password"] {
+		background: #eee;
+		display: block;
+		border: solid 1px #999;
+		border-radius: 6px;
+		padding: .75rem;
+		color: #555;
+		width: 100%;
+		max-width: 400px;
+	}
+
+	.formmessage {
+		grid-column: 1/2;
+	}
+
+	form {
+		grid-column: 1/2;
+	}
 }
