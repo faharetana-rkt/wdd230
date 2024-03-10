@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce</title>
+    <meta name="author" content="Faharetana">
+    <meta name="description" content="This is the homepage for the Chamber of Commerce of Toamasina">
+    <meta property="og:title" content="Toamasina's Chamber of Commerce" />
+    <meta property="og:type" content="Website" />
+    <meta property="og:image" content="https://faharetana-rkt.github.io/wdd230/chamber/images/toamasina.webhp" />
+    <meta property="og:url" content="https://faharetana-rkt.github.io/wdd230/chamber/" />
+    <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="styles/base.css" />
+    <link rel="stylesheet" type="text/css" href="styles/medium.css" />
+    <link rel="stylesheet" type="text/css" href="styles/larger.css" />
+    <link rel="icon" href="images/favicon.ico" />
+</head>
+
+<body>
+    <header>
+        <div class="mode">
+            ☀️/🌒
+        </div>
+        <a id="anchorLogo"><img id="headerLogo" src="images/chamber-logo.webp"
+                alt="Logo of the chamber of commerce of Toamasina"></a>
+        <nav>
+            <button id="menu"></button>
+            <a href="index.html">Home</a>
+            <a href="join.html">Join</a>
+            <a href="discover.html">Discover</a>
+            <a href="#">Directory</a>
+        </nav>
+    </header>
+    <main class="forms">
+        <form method="get" action="thankyou.html" class="join">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label>First name* <input id="fname" type="text" name="fname" required></label>
+                <label>Last name* <input id="lname" type="text" name="lname" required></label>
+                <label>Title or Position* <input id="title" type="text" name="title" required required
+                        pattern="[a-zA-Z\- ]{7,}"
+                        title="Please enter at least seven characters consisting of alphabets, hyphens, and spaces only."></label>
+                <label>Email* <input id="email" type="email" name="email" required
+                        placeholder="chamber@gmail.com"></label>
+                <label>Phone* <input id="phone" type="tel" required id="phone"></label>
+                <label>Organization name | Business name* <input type="text" name="business" id="business"
+                        required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership type</legend>
+                <label><input type="radio" name="membership" value="np"> Non-Profit Membership</label>
+                <label><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+                <label><input type="radio" name="membership" value="silver"> Silver Membership</label>
+                <label><input type="radio" name="membership" value="gold"> Gold Membership</label>
+            </fieldset>
+            <label class="business">Business/Organization Description: <textarea id="description" name="description"
+                    rows="8" cols="40"></textarea></label>
+            <input type="hidden" id="currentTime" name="currentTime">
+            <input type="submit" value="Join the Chamber">
+        </form>
+        <div class="parent">
+            <div class="container">
+                <div class="membership">
+                    <h2>Bronze Membership</h2>
+                    <p>Free for non-profit organizations</p>
+                    <p>Cost: 50$ per year for other organizations</p>
+                    <p>Benefits:</p>
+                    <ul>
+                        <li>Access to special events</li>
+                        <li>Training sessions</li>
+                        <li>Spotlight positions on the home page</li>
+                    </ul>
+                </div>
+                <div class="benefits">
+                    <h3>Bronze Membership Benefits:</h3>
+                    <ul>
+                        <li>Access to special events organized by NP Membership</li>
+                        <li>Training sessions on various topics relevant to non-profit organizations</li>
+                        <li>Spotlight positions on the home page to showcase your organization</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="membership">
+                    <h2>Silver Membership</h2>
+                    <p>Cost: $100 per year</p>
+                    <p>Benefits:</p>
+                    <ul>
+                        <li>All benefits of Bronze Membership</li>
+                        <li>Discounts on events</li>
+                    </ul>
+                </div>
+                <div class="benefits">
+                    <h3>Silver Membership Benefits:</h3>
+                    <ul>
+                        <li>All benefits of Bronze Membership</li>
+                        <li>Additional discounts on events organized by NP Membership</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="membership">
+                    <h2>Gold Membership</h2>
+                    <p>Cost: $200 per year</p>
+                    <p>Benefits:</p>
+                    <ul>
+                        <li>All benefits of Silver Membership</li>
+                        <li>Premium advertising spots</li>
+                    </ul>
+                </div>
+                <div class="benefits">
+                    <h3>Gold Membership Benefits:</h3>
+                    <ul>
+                        <li>All benefits of Silver Membership</li>
+                        <li>Premium advertising spots on the website</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="informations">
+            <a id="footerLogo" href="#"><img id="logo" src="images/chamber-logo.webp"
+                    alt="Logo of the chamber of commerce of Toamasina"></a>
+            <p>Toamasina</p>
+            <p>Chamber of Commerce</p>
+            <p>25 La Mairie</p>
+            <p>Madagascar, Toamasina 501</p>
+        </div>
+        <div class="contact">
+            <p>info@toamasinacc.org</p>
+            <p>+261 34 55 555 55</p>
+            <p>Location 📍</p>
+        </div>
+        <div class="websiteInfo">
+            <p>&copy; 2024 Toamasina Chamber of Commerce</p>
+            <p>Faharetana A. Rakotomamonjy</p>
+            <p>WDD 230 Project</p>
+            <p class="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
+
+</body>
+
+</html>
