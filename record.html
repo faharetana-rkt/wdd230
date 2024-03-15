@@ -33,33 +33,10 @@
         <a href="chamber/" class="navLink">Chamber</a>
         <a href="form.html" class="navLink">Form</a>
     </nav>
-    <main class="forms">
-        <div class="formmessage"></div>
-        <form method="get" action="record.html">
-            <label>Username* <input type="text" name="uname" id="uname" required></label>
-            <label>Password* <input type="password" name="password" id="password" required
-                    pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"></label>
-            <label>Repeat Password* <input type="password" name="password2" id="password2" required></label>
-            <label>Email* <input type="email" name="email" id="email" required title="A valid byui.edu email"
-                    pattern="[a-zA-Z0-9_.\-]+@byui.edu"></label>
-
-            <label>Page rating <input type="range" id="rating" name="rating" min="0" max="10" value="0" step="1"
-                    list="rangevalues"><datalist id="rangevalues">
-                    <option value="0">0</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                </datalist></label>
-            <div id="rangevalue">0</div>
-            <input type="submit" value="Send my rating">
-        </form>
+    <main>
+        <div class="messageRecord">
+            <h2>Your rating has been recorded. Thank you for participating in the survey 😊</h2>
+        </div>
     </main>
     <div class="iframeContainer">
         <iframe
@@ -73,7 +50,7 @@
         <p class="lastModified"></p>
     </footer>
     <script src="scripts/getdates.js"></script>
-    <script src="scripts/forms.js"></script>
+    <script src="scripts/visits.js"></script>
 </body>
 
 </html>

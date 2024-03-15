@@ -244,3 +244,99 @@ footer {
     font-size: 30px;
     background-color: #FCF5E5;
 }
+
+/*The styling for the join page starts here*/
+.join {
+    font-size: 1.20rem;
+}
+
+.container,
+.join {
+    width: 90%;
+    margin: 5px auto;
+}
+
+.container h2,
+.container h3 {
+    font-family: "Josefin Sans";
+    text-decoration: underline;
+}
+
+.container {
+    border: solid 1.5px black;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.join legend {
+    font-family: "Josefin Sans";
+    font-size: 1.5rem;
+    padding: 4px;
+}
+
+.join fieldset {
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.join textarea {
+    border-radius: 5px;
+    display: block;
+    margin-top: 5px;
+}
+
+.join label {
+    display: block;
+}
+
+.join input[type="text"],
+.join input[type="email"],
+.join input[type="tel"] {
+    background: white;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: black;
+    width: 100%;
+    max-width: 400px;
+    margin-top: .25rem;
+    margin-bottom: 1rem;
+}
+
+.join input[type="radio"] {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.join input[type="submit"] {
+    background-color: #485696;
+    color: #E7E7E7;
+    font-size: 1.5rem;
+    border-radius: 6px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+
+}
+
+.business {
+    margin-top: 25px;
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
+
+/*Thank you page styling*/
+
+.thankYou {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    /* Horizontally center */
+    align-items: center;
+    /* Vertically center */
+}
+
+.thanks {
+    font-size: 2rem;
+}

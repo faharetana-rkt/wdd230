@@ -95,5 +95,19 @@
         grid-row: 1/4;
     }
 
+    /*styling for join page*/
+    .forms {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .join {
+        grid-column: 1/2;
+        max-width: 500px;
+    }
+
+    .parent {
+        grid-column: 2/3;
+    }
 
 }
