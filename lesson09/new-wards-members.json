@@ -1,0 +1,25 @@
+{
+    "wardInformations": {
+        "familyName": "Rakotomamonjy",
+        "dateMoved": "01/10/2022",
+        "numPeople": 3,
+        "visitedByBishopric": true,
+        "members": [
+            {
+                "name": "Rakotomamonjy Faharetana Andriatsiva",
+                "gender": "Male",
+                "birthDate": "16/03/1995"
+            },
+            {
+                "name": "Solofoniainarivelo NyOny Malala Harinosy",
+                "gender": "Female",
+                "birthDate": "09/06/1997"
+            },
+            {
+                "name": "Rakotomamonjy NyAina Itokiana Valim-pitia",
+                "gender": "Male",
+                "birthDate": "28/08/2022"
+            }
+        ]
+    }
+}
