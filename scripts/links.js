@@ -14,11 +14,16 @@ getLessonData();
 const displayLinks = (lessons) => {
     lessons.forEach((lesson) => {
         const listElement = document.createElement("li");
-        const anchor = document.createElement("a");
-        listElement.innerHTML = `Week ${lesson}: <span>${lesson.title}</span>`;
-        const anchorList = document.querySelector("span");
-        anchor.setAttribute('href', lesson.url);
-        anchorList.appendChild(anchor);
+        listElement.innerHTML = `Week ${lesson.lesson}: `;
+        const links = lesson.links;
+        links.forEach((link) => {
+            const url = link.url;
+            const title = link.title;
+            const anchor = document.createElement("a");
+            anchor.setAttribute('href', url);
+            anchor.innerHTML = `| ${title} |`;
+            listElement.appendChild(anchor);
+        })
         list.appendChild(listElement);
     });
 }
