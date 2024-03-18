@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "Barber Shop",
+            "contact": "+261 34 01 111 11",
+            "address": "2047 Rue Amiral Biliard, Toamasina, Madagascar",
+            "website": "https://www.barbershop.com",
+            "description": "The best barber in town",
+            "imageurl": "chamber/images/barber.webp",
+            "membership": "silver"
+        },
+        {
+            "name": "Online Tutoring",                                                
+            "contact": "+261 33 03 333 33",
+            "address": "14 Rue de l'indépendance, Toamasina, Madagascar",
+            "website": "https://www.online-tutoring.com",
+            "description": "Get your custom made tutor online",
+            "imageurl": "chamber/images/instructor.webp",
+            "membership": "silver"
+        },
+        {
+            "name": "Your I.T Guy (Codes)",
+            "contact": "+261 32 22 222 22",
+            "address": "Lot 12 Ankirihiry, Toamasina, Madagascar",
+            "website": "https://www.your-it-guy.com",
+            "description": "Available whenever, wherever!",
+            "imageurl": "chamber/images/coding.webp",
+            "membership": "gold"
+        },
+        {
+            "name": "Transport It",
+            "contact": "+261 32 33 333 33",
+            "address": "Gare routière Tanambao V, Toamasina, Madagascar",
+            "website": "https://www.transport-it.com",
+            "description": "We get it delivered anywhere, anytime",
+            "imageurl": "chamber/images/transport.webp",
+            "membership": "gold"
+        },
+        {
+            "name": "Home Builder Zeta",
+            "contact": "+261 34 44 444 44",
+            "address": "Miami Bord de la Mer, Toamasina, Madagascar",
+            "website": "https://www.home-builder-zeta.com",
+            "description": "For any home building related works, contact us",
+            "imageurl": "chamber/images/construction.webp",
+            "membership": "silver"
+        },
+        {
+            "name": "Mpitsok'ovy",
+            "contact": "+261 38 88 888 88",
+            "address": "Score Rue de l'indépendance, Toamasina, Madagascar",
+            "website": "https://www.mpitsokovy.com",
+            "description": "We serve the best french fries in town",
+            "imageurl": "chamber/images/fries.webp",
+            "membership": "bronze"
+        },
+        {
+            "name": "Blast'in dance school",
+            "contact": "+261 31 11 111 11",
+            "address": "Lot 92 Rue Tassigny, Toamasina, Madagascar",
+            "website": "https://www.blast-in.com",
+            "description": "We are a lit dance school",
+            "imageurl": "chamber/images/dance.webp",
+            "membership": "silver"
+        }
+    ]
+}
