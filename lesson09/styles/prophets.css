@@ -17,3 +17,27 @@ h1 {
     font-size: 3rem;
     text-decoration: underline;
 }
+
+section {
+    border: blue 2px solid;
+    padding: 10px;
+    margin: 5px;
+    background-color: #cdb4db;
+    border-radius: 3px;
+}
+
+h2 {
+    color: blueviolet;
+    text-align: center;
+}
+
+img {
+    border-radius: 3px;
+    display: block;
+    margin: 5px auto;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+}
