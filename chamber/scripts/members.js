@@ -19,14 +19,16 @@ const displayMember = (members) => {
         const website = document.createElement("p");
         const membership = document.createElement("p");
 
-        logo.src = member.imageURL;
+        logo.src = member.imageurl;
         logo.alt = `${member.name} logo`;
+        logo.setAttribute("width", "200");
+        logo.setAttribute("height", "auto");
         name.innerText = member.name;
         address.innerText = member.address;
         contact.innerText = member.contact;
         description.innerText = member.description;
         website.innerText = member.website;
-        membership.innerText = `Membersip level: ${member.membership}`;
+        membership.innerHTML = `Membership level: <strong>${member.membership}</strong>`;
 
         card.appendChild(logo);
         card.appendChild(name);
