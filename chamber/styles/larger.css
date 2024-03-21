@@ -110,4 +110,12 @@
         grid-column: 2/3;
     }
 
+    /*styling for directory page*/
+    #container .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 5px;
+        align-items: center;
+    }
+
 }
