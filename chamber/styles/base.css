@@ -340,3 +340,41 @@ footer {
 .thanks {
     font-size: 2rem;
 }
+
+/*Directory styling page*/
+#buttonsContainer {
+    margin: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #FC7A1E;
+    text-align: center;
+}
+
+#grid,
+#list {
+    padding: 5px;
+    font-size: 1.6rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 8px;
+}
+
+#container img {
+    display: block;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+#container h3,
+#container p {
+    text-align: center;
+}
+
+#container div {
+    border: 2px solid navy;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 7.5px 7.5px 5px lightblue;
+    background-color: white;
+}

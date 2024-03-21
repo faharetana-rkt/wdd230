@@ -21,7 +21,7 @@ const displayMember = (members) => {
 
         logo.src = member.imageurl;
         logo.alt = `${member.name} logo`;
-        logo.setAttribute("width", "200");
+        logo.setAttribute("width", "150");
         logo.setAttribute("height", "auto");
         name.innerText = member.name;
         address.innerText = member.address;
@@ -43,3 +43,21 @@ const displayMember = (members) => {
 }
 
 getMembersData();
+
+/*Toogle button from list to grid*/
+
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("#container");
+
+gridbutton.addEventListener("click", () => {
+    // example using arrow function
+    display.classList.add("grid");
+    display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", () => {
+    display.classList.add("list");
+    display.classList.remove("grid");
+})
+
