@@ -110,4 +110,16 @@
         grid-column: 2/3;
     }
 
+    /*styling for directory page*/
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-gap: 5px;
+    }
+
+    .grid div {
+        justify-self: stretch;
+        align-self: stretch;
+    }
+
 }

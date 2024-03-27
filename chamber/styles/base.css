@@ -378,3 +378,34 @@ footer {
     box-shadow: 7.5px 7.5px 5px lightblue;
     background-color: white;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+#container .list {
+    display: flex;
+    flex-direction: column;
+}
+
+#container.list>div {
+    border: none;
+    box-shadow: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#container.list>div p:nth-child(-n+4) {
+    display: none;
+}
+
+#container.list>div:nth-child(even) {
+    background-color: #485696;
+    color: white;
+}
+
+#container.list>div>img {
+    display: none;
+}
